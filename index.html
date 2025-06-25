@@ -7,24 +7,85 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
+            color: pink;
             background-color:white;
         }
+
         .header {
             background-color: pink;
             color: white;
             padding: 10px;
             text-align: center;
         }
+
         .menu {
             background-color: lightpink;
             padding: 10px;
         }
+
         .menu a {
             color: white;
             text-decoration: none;
             margin: 0 10px;
         }
+
         .menu a:hover {
             color: powderblue; 
         }
-    
+        
+        .content {
+            background-color: white;
+            padding: 20px;
+            margin-top: 15px;
+        }
+
+        .footer {
+            background-color: pink;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 15px;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid pink;
+            padding: 8px;
+        }
+
+        th {
+            background-color: pink;
+            color:white;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1> HTTP Research Project </h1>
+    </div>
+
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="role.html">HTTP's Role</a>
+        <a href="past.html">HTTP's Past</a>
+        <a href="present.html">HTTP's Present</a>
+        <a href="future.html">HTTP's future</a>
+        <a href="ref.html">Refrences</a>
+    </div>
+</body>
+
+<div class="content">
+    <h2> What is HTTP?</h2>
+    <p> 
+HTTP stands for Hypertext Transfer Protocol, which is a communication protocol feature for the web. It helps clients like web browsers or applications, and web servers. It can be used for things other than hypertext, like name servers and object management servers. It has been used on the web since 1990 (Nielsen et al., 1999). HTTP follows a client-server application-level that starts the client opening a connection to make a request then waiting for a reply from the server. The server does not keep any data between each session making it a stateless protocol (Developers, HTTP: MDN). 
+</p>
+</div>
